@@ -54,7 +54,11 @@ body {
 .hero-content p {
   font-size: 20px;
 }
-
+.black {
+  border: 2px solid;
+  padding: 30px 10px 30px 10px;
+  border-radius: 20px;
+}
 .button {
   background-color: #f48120;
   color: #ffffff;
@@ -251,6 +255,7 @@ footer {
   .hero-section.low {
     height: 100px;
   }
+
   .advantages, .steps {
     flex-direction: column;
     align-items: center;
