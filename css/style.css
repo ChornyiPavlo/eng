@@ -76,6 +76,9 @@ body {
   font-weight: bold;
   color: #f48120;
 }
+.low {
+  height: 100px;
+}
 .guarantees-section,
 .courses-section,
 .signup-section {
@@ -244,6 +247,9 @@ footer {
   .hero-section {
     height: 660px;
     object-fit: cover;
+  }
+  .hero-section.low {
+    height: 100px;
   }
   .advantages, .steps {
     flex-direction: column;
